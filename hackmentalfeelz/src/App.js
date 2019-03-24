@@ -84,7 +84,7 @@ class App extends Component {
                               affirmations: objAffirmer.affirmations.filter(
                                 (element, index) => index > 0)
                             }
-                          : objAffirmer)
+                          : objAffirmer).filter(objAffirmer => objAffirmer.affirmations.length > 0)
                   });
                   return false;
                 }}>

@@ -36,7 +36,14 @@ class App extends Component {
         <h2>Your journal:</h2>
         <h2>New entry:</h2>
         <div>
-          <textarea rows={ 5 } cols={ 40 } />
+          <textarea rows={ 5 } cols={ 40 } value={ this.state.pending_entry }
+            onChange= { event => {
+              this.setState({
+                ...this.state,
+                pending_entry: event.target.value
+              })
+            }}
+          />
         </div>
         <button>Add</button>
       </div>

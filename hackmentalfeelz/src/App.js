@@ -23,9 +23,15 @@ class App extends Component {
           "Thank you for being a part of my life. I really appreciate you sharing your mental health journey with me. I am always here for you"
         ]
       }, {
-        name: "Tom"
+        name: "Tom",
+        affirmations: [
+          "Hey bro, I really enjoy spending time with you. I love that you are a great listener and that you always support for all the decisions I have made over the years. You are my ride or die and I will always be there for you."
+        ]
       }, {
-        name: "Ben"
+        name: "Anonymous",
+        affirmations: [
+          "To whoever is reading, I have had a hard time fitting in and finding my group of friends during my freshman year. I am a shy person and making new friends was really challenging for me. I felt so isolated and did not feel like I belong there. I even thought about dropping out of college at one point because the feeling of loneliness was too much. Fast forward three years, I now can proudly say that I no longer feel isolated. I met some amazing people in the baking decal class and we became best friends! Just remember, everything will be okay in the end. If it’s not okay, it’s not the end."
+        ]
       }],
       journal_entries: [
 
